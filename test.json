@@ -1,0 +1,70 @@
+{
+"val": "\/home\/index\/M3U8?key=vNdmXrMRqBh5JW0w4Qe1iMNKdMV8Eph3V2L3ln0XiBYK2nx1Avs1BRL1m589F9vy1qnmq0HL38WplAq3HbjrKnr2xMFJmeQJrPbAu7RzyYz.m3u8",
+"vtt": "https:\/\/movie.soaper.live",
+"val_bak": "\/home\/index\/M3U8?key=vNdmXrMRqBh5JW0w4Qe1iMNKdMV8Eph3V2L3ln0XiBYK2nx1Avs1BRL1m589F9vy1qnmq0HL38WplAq3HbjrKnr2xMFJmeQJrPbAu7RzyYz.m3u8",
+"pos": 0,
+"type": "m3u8",
+"subs": [
+    {
+        "path": "\/home\/index\/getsrt?key=6M9NLle7QZfEqXP516voTRq6LRJW5KSKrW5Kl0PBFQObW1XxZvfBRyXBemP3tPNj86a06Yi5RyVm8QWRS3moV0o4rWh4A6x4djpBIdNr2R0LlMCELJbzOQQPIaPW07P8b6HMnWxOQ1LLI35YPY8ddvh8M3yQaE7KfEM8wjXBYZTAwwJ3yRMBinWdxJ1QoohrKK47ZjreIJeXROv63KCYl0YKrleLhXQ6od8jeOSABXrwAdwLs340jKw3wOCRwBPBmzQNfQjRz72V5mcYNXpdNdmQT8qLWdWz2EfxOb.srt",
+        "name": "en"
+    },
+    {
+        "path": "\/home\/index\/getsrt?key=0R4l8YQM7phvKAWN7mrRIxzM8xEalPUlvB7lnzWmSzVn6BY5PesdrJRdEneKfORp28r68JCz3pAJyRK3hMKwZOw4q2tx0qnxpRAdFBna9oOR81teBX6pbyyqt149xa4YBEIKWQBL5O66CodVZV7wwRSx8jQKLVPyt9JvZ6ENMyilNN95AMmETrwexPj088CqPP193JqzcMNWxm2nAzC2AV216A5lUJaVPL1E2mSbREPKbNKJi85xdQN8NZF68VWVvnYKi2B510XoNpcAZ7qYZYe8FPj1yx1xl9HoVqL6L2r5fvY0.srt",
+        "name": "en:hi"
+    },
+    {
+        "path": "\/home\/index\/getsrt?key=4Y7QzwNlb3sNxw9olyvRiPVxMPJXyYUa8jxayovbFEp9rRBvjQH3AlR369yaUqvQArnxrJtJ54OMPa15FozQY9QRPpSN8ZpNEmV9I6bPJ91my8fYM4XKdJJLIj2PX529d1CwK54AEM22CaJ3R3Nnn2i0oQ7ydxlKIa4w87yQ5BTAZZXM6eJ9idbPmRxq11IE11dJYeE0tYXrzAPBo8FBbJBAwbKVuAy7QJo6P1u2nxjA2dArhly7MnjljRio6BJBpzqvujYMJ2PALZtRlaeyly2ru8pJ5Q51YVf5y8.srt",
+        "name": "es"
+    },
+    {
+        "path": "\/home\/index\/getsrt?key=98NqQzPLmwfbxNepXyVKSqnb9qLQ3jCR5rlRA0aBtNrO85bVPwHVbmZVAN8rf45L9nErnbU1OboJmLnOTA7lqKlw0ziWwaPW6Oqpc6j0yKwZ7of4wMezXvvRtP21dj2QKXtWPnjbVv55C31zrz7bb9hXOBKYJ46rcErl2KbJmpTbnnOPQJZEIejLq597xxTL887AvNLxI35M2EvzqRS5nR5XNn8ecqErJOajnAS0x76w08wosp4LPJApAxi4RYaY8O29Sr7bRdJNexhNBQMrBrElTyYLmlLldnhXm9YxYlV3tOe2.srt",
+        "name": "es:hi"
+    },
+    {
+        "path": "\/home\/index\/getsrt?key=qWKVrdaBXqu12nOv0dpbUjoK8jOVxNUlvpPl6bwMSOPqEb9Xr4s6dvB61Nx5cKlRZ1V710IVwLb3zJ6wfQY68l6oA5hrAwMrldQmtzBpa03nvVtoaB3Z7YYOfZN3yPNWd9hwLp3V4jooCKN929mRR8SQnBK03lXLHr1JQY6pdWuM77RoOK3VT7ndapv3NNu1YYm4by1AcWRNd6Y9LasOxrOqbxm2t9q1VxZej0tjnq9WjJWbsNpr3lBNBjseRoxo4n3wCKwyE54oR7ILNBapN3apfymp8N8Xd2f4Nj.srt",
+        "name": "fr"
+    },
+    {
+        "path": "\/home\/index\/getsrt?key=xoQ4arw1qpTz6Lp39MEKHKbNPK5JjMCaWZ3az6eVFryQbKVYMZU7Pna7r6Zeipdw9laqleiyQBmVN5qQS7LrZ9rMwNCRvqxRWbwYun02OpMLQjfM9yX56BBYfKAPoaAWbef0MbL1vyPPTReyoyqQQdhoLYr6XaJpTvxnZBKLrpClQQwX4BqoTraZybQx44Cd00758vdrIAnxPKMe0Ec30Q3oN0Blc8RMz6rY1ESxjLd5xP5wUl1AE3nln8iB9bKbjyAYCXRN17PWLvca2pmMqY8ltnjz8w87mEhWMl.srt",
+        "name": "it"
+    },
+    {
+        "path": "\/home\/index\/getsrt?key=XndYoJWwM3uxXOpwn2BEHxZPLxKybYU692e60Z5XCRQW0dJmLXU9B4X9paNzFOL6V9oQ95C6yexmQ28yUnB3Ve3PE2U03Jr02MdbS8NM7rw0pXtj09n4W33vf4QyN1QRbEtz3BKXm2xxiy0EwEVPP2f5X7M1rbYmFwxBJnWL0AtQddb2x9JnSLrY4ERo77fJNNy8XEJRHaQ6lmKdJYtWezWo8eKBud01wpX9YEU5az6w5Nw7Sl0pnwolo2iazXMX156AhZWP3Kone2uX2Kv7PVeBtzY0yr0rVJH7XNrArJZjfobX.srt",
+        "name": "it:hi"
+    },
+    {
+        "path": "\/home\/index\/getsrt?key=8wVon75vjJfZr9VXvQjLTw48OwVxmjuvybAv3ENPf0pKEremN3UeA64e9oWvSEjx9X5nXmsnOZbWVxNOI418Rx8XWYF9ay691NmlhK2lbJV7yYSROZ67qMMKcZ4byo4WMAhKb8wp7d44COj1X1Z77zI2XZ831Oobs86Enr5bOQtReeYPEO9nuy9x8Md6BBcJRRpx0mJOHN0dAv4rO6hdxRdMmxJLfVXEOpK24yTPKAq0PQ0xTzlwd82z24UjWeRenL3yHbrdZ34RypuB5Eqbyx5AFbM4l1lqOyfMKp.srt",
+        "name": "nl"
+    },
+    {
+        "path": "\/home\/index\/getsrt?key=vNdmXrMRqBh5JW0w4Qe1iMNKdMV8Eph3V2L3ln0XiBYK2nx1Avs1BRL1m589F9vy1qnmq0HL38WplAq3HbjrKnr2xMFJmeQJrPbAuarmlOQo6pIOozyXejj4cRe24ze6vjIAo8d4zy99fb2qLqX99nhb9Yy78w4zSexvWoLP7pUbRRBdEmnXIlwy97bJjjIr66q3V8rXI9NvoPKE6eiQndQrjnoYC0B26w8jl7FVqEzmVpmoIJ57Z3dJdOi9bypyW6E0cBl76Qr420uXn3J3jW7Kh0ZB3r3XVxuBQ5.srt",
+        "name": "pt"
+    },
+    {
+        "path": "\/home\/index\/getsrt?key=w5e0RrJaqnFXqnxZBMw9iaZd7aPyVpSqV2YqbJo5SN08RrY1ejHj3XQjEqrbFpqOM14l1QiozBa1Q2OzFR1daVdN92Fy6wxy5KeOuxX9zEpP0qcdKYmzOoo1t4x0YRx3dqtZWmwxlXRRtEw6z6OXXbS92vOApqjesNLowKvZ13hxNNBPla1LuvRpOKLP66ubBB5LqvbWUvAPexQ4XZfP41PEX4pBinq8L9w2l4s4dVen4XnPTzJEPnXzXrUoKqWqAp4mu5Jjm3EPQZI630B052jXF3pMz0M0dwINM54n4pqeTxOQ.srt",
+        "name": "pt:hi"
+    },
+    {
+        "path": "\/home\/index\/getsrt?key=0R4l8YQM7phvKAWN7mrRIxzM8xEalPUlvB7lnzWmSzVn6BY5PesdrJRdEneKfORp28r68JCz3pAJyRK3hMKwZOw4q2tx0qnxpRAdFBna9oOR81teBX6pbyyqt149xa4YBEIKWQBL5O66CodVZV7wwRSx8jQKLVPyt9JvZ6ENMyilNN95AMmETrwexPj088CqPP193JqzcMNWxm2nAzC2AV216A5lUJaVPL1E2mSbREPKbNKJi85xdQN8NZF68VWVvnYKi2B510XoNpcAZ7q7JVPEH1md292pB0fWqY.srt",
+        "name": "ru"
+    },
+    {
+        "path": "\/home\/index\/getsrt?key=dYeqr96jQLsj0OPyZqw8UmOyom0x7jFe90qe5z6ZiqrMnOwxmVCOjEnOd5Y0UjAelnKmnBH4abo71XMaC39QWPQy0RhoWEYo5VPauNw154E2KJt7169eM22pco0zEr0MOKUVaXAdl9nniM1RNRnKKjhr8vJmzNlAU5ZqYeO268tqVVbnvm9Psr5Y8mAR00Cb887Exyb2U2ElrOajQZh9JA9VlJQLfvpYK15EO4F2BOp82n8xhr63RWvrvMS6Rm1mbBnAi842R1v06ZCJQL4LxKLBtY89alaOQ3tXO6.srt",
+        "name": "th"
+    },
+    {
+        "path": "\/home\/index\/getsrt?key=oLmJpAEOqoIYNj0EKbdXHqN7BqXvEJC1j9W17Jo8i4mxOJ8Ae7sYQLOYzr19FejlapJ7pzHyQpjv27zQSzyXRbXWdvTwpe3wzv5dcW6ox7az05Fe1drVWoo7tm5W8V56Kyf5YaEm6KXXCAoj4jKOOwT3QnBZ25PzS1OlNyPvLru7vvZl2wReTBVRqEM0JJIEAA0JOLEptNQxm9PpY2hVpNVvQpKYH20KoBe5z7Ur4Nl5rJ5XCXzR3jyXy7ilNWYW3bJBSPO5A1wqj2hV6JXJwpJWhzx09303oRHZByOoOxJWUn0Z.srt",
+        "name": "th:hi"
+    },
+    {
+        "path": "\/home\/index\/getsrt?key=yo9P1r83qRTnmp7RMqzyH1dZn17ymVS6yK26m9oQCyldK8JV0efdXMRdLz4Zf47Wvn2EnVUzBqy94YvBhyZWxOW59VhOxQpOYBbyCdLMWZP3O5CBy3Rbpvv0H50OX80bQyTMl6dOZmEEILQdmd5vvnf4jOWeprqJuWyLZ705YrFPxx5qaE0MiXjmxelMbbhn993XE0naHNMn8A0ow5hd1ydZj1Q7fMvqnByr8ecWn1EoWAomFbxWM5KbK8FZ3OPO2dApiYvNlaJxy0HOJKm0Zoe3IREazmzqKpcV3X.srt",
+        "name": "zh"
+    },
+    {
+        "path": "\/home\/index\/getsrt?key=pbl8BORdAPf0K2VM6nqJTEQmOEdJlbtOX94O1Qe2ionp02AyWNSPlYzP8brMixqPXv7jvLH5rMq0amwrSoj7mQ74nMS8zaq8Qp56udYmpAzEWlCAYxvP1nnRI2jw9zj04AceqPpJORvvh1Yv8vjrr0iqBl4v56KVTaL65M71NZT3yyOmnr2eHME0W8KO77FX33zqM0X8fRrJxd7zYahaPpaJZPKrh4XxyrVmEqH8r3je8PexSMwK5aXMXbT4Mxvx1WVjSJB8p4m0jMIlONq6d7a1H7YBj2B2Q8fb3jyoy8eMtvKl.srt",
+        "name": "zh:hi"
+    }
+],
+"ip": "103.130.173.114"
+}
