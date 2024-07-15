@@ -39,6 +39,7 @@ app.get("/fetch/:id/:ss?/:ep?", async (c) => {
 // Proxy endpoint
 app.get("/proxy/:url", async (c) => {
   const { url } = c.req.param();
+  const rqu = new URL(url)
   const fullUrl = c.req.url;
   let originUrl = new URL(fullUrl).origin;
 
@@ -52,11 +53,24 @@ app.get("/proxy/:url", async (c) => {
       data = await res.text();
       const splited = data.split("\n");
       splited.forEach((line, index) => {
-        if (line.trim().startsWith("https://")) {
+        let trimed = line.trim()
+        if (trimed.startsWith("https://")) {
           splited[index] = `${originUrl}/proxy/` + encodeURIComponent(line);
         }
+        else if(trimed.startsWith('/')){
+          splited[index] = `${originUrl}/proxy/` +encodeURIComponent(rqu.origin + line)
+        }
+        else{
+          let matchPattern = line.match(/"\/[\w/?=.]+"/)
+          if(matchPattern){
+
+            splited[index] = splited[index].replace(/"\/[\w/?=.]+"/,`"${originUrl}/proxy/${encodeURIComponent(rqu.origin+matchPattern[0].replace('"'),'')}"` )
+          }
+        }
       });
-      data = splited.join("\n");
+
+      data = splited.join("\n")//.replace(/URI="/,`URI="${originUrl}/proxy/${encodeURIComponent(rqu+)}`);
+      
       data = stringToArrayBuffer(data);
     } else if (url.trim().endsWith(".srt")) {
       const buffer = await res.arrayBuffer();
@@ -67,7 +81,7 @@ app.get("/proxy/:url", async (c) => {
 
       // Modify subtitles if needed
       if (subtitles.length > 0) {
-        subtitles[0].text = `Welcome to MR K's domain.`;
+        subtitles[0].text = ``;
       }
 
       data = stringToArrayBuffer(parser.toSrt(subtitles));

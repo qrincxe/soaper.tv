@@ -1,6 +1,6 @@
 const cheerio = require('cheerio');
 
-export const headers = {
+  export const headers = {
     'Accept': 'application/json, text/javascript, */*; q=0.01',
     'Accept-Encoding': 'gzip, deflate, br, zstd',
     'Accept-Language': 'en-GB,en-US;q=0.9,en;q=0.8',
@@ -24,7 +24,7 @@ export const headers = {
 const root = 'https://soaper.tv';
 const tmdb_key = 'f6f2a9e9b0f5eed81b4cabe35d5a9c1b';
 
-  export class Soaper {
+  export  class Soaper {
     constructor(id, ss = null, ep = null ,server=0,proxy) {
         this.id = id;
         this.ss = ss || null;
@@ -102,7 +102,7 @@ const tmdb_key = 'f6f2a9e9b0f5eed81b4cabe35d5a9c1b';
                 let res = await fetch(`${root}/tv_${key}.html`);
                 let html = await res.text();
                 
-                const episode_data = this.getEpisodeDataForSeason(html, 2);
+                const episode_data = this.getEpisodeDataForSeason(html, this.ss);
                 console.log(episode_data);
     
                 // Corrected: Declare key before using it
@@ -116,6 +116,7 @@ const tmdb_key = 'f6f2a9e9b0f5eed81b4cabe35d5a9c1b';
                     // console.log(`Found episode ${this.ep}: ${foundEpisode.episodeUrl}`);
                     let k = this.keyStractor(foundEpisode.episodeUrl)
                     // console.log(k)
+                    console.log(k)
                     const s = await this.getSource(k);
                     return s;
                 } else {
@@ -162,13 +163,13 @@ const tmdb_key = 'f6f2a9e9b0f5eed81b4cabe35d5a9c1b';
         const key = await this.getKey(title);
         console.log(key);
         const src = await this.getStreams(key);
-        console.log(src)
+        // console.log(src)
         return src
         
     }
 }
 
-// const s = new Soaper(94997,1,1,1);
+// const s = new Soaper(1399,1,1,1);
 // s.main().then(e => console.log(e))
 
 
