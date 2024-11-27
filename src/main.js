@@ -2,7 +2,6 @@ const cheerio = require('cheerio');
 
   export const headers = {
     'Accept': 'application/json, text/javascript, */*; q=0.01',
-    'Accept-Encoding': 'gzip, deflate, br, zstd',
     'Accept-Language': 'en-GB,en-US;q=0.9,en;q=0.8',
     'Connection': 'keep-alive',
     'Content-Length': '43',
@@ -21,7 +20,7 @@ const cheerio = require('cheerio');
     'X-Requested-With': 'XMLHttpRequest'
 };
 
-const root = 'https://soaper.tv';
+const root = 'https://soaper.live';
 const tmdb_key = 'f6f2a9e9b0f5eed81b4cabe35d5a9c1b';
 
   export  class Soaper {
