@@ -7,9 +7,9 @@ const cheerio = require('cheerio');
     'Content-Length': '43',
     'Content-Type': 'application/x-www-form-urlencoded; charset=UTF-8',
     'Cookie': 'PHPSESSID=oml9j795vi9ll0u0m741mntu77; ads_status=true',
-    'Host': 'soaper.tv',
-    'Origin': 'https://soaper.tv',
-    'Referer': 'https://soaper.tv/movie_y5XgREJDbe.html',
+    'Host': 'soaper.live',
+    'Origin': 'https://soaper.live',
+    'Referer': 'https://soaper.live/movie_y5XgREJDbe.html',
     'sec-ch-ua': '"Not/A)Brand";v="8", "Chromium";v="126", "Google Chrome";v="126"',
     'sec-ch-ua-mobile': '?0',
     'sec-ch-ua-platform': '"macOS"',
@@ -69,7 +69,7 @@ const tmdb_key = 'f6f2a9e9b0f5eed81b4cabe35d5a9c1b';
     async getSource(key,isMovie=true) {
         const body = `pass=${key}&param=&extra=&e2=0&server=${this.server}`;
         
-        const res = await fetch(`https://soaper.tv/home/index/Get${this.type_ =='movie'?"M":"E"}InfoAjax`, {
+        const res = await fetch(`https://soaper.live/home/index/Get${this.type_ =='movie'?"M":"E"}InfoAjax`, {
             method: 'POST',
             headers: headers,
             body: body
